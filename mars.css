@@ -86,20 +86,52 @@ html {
   padding-right: 20px;
 }
 
-.flashit{
-  /* color: #fff; */
-	-webkit-animation: flash linear 3s infinite;
-	animation: flash linear 3s infinite;
+/* ----------- iPhone X ----------- */
+@media only screen and (max-width: 812px) {
+    #title {
+      font-size: 90px;
+      letter-spacing: 8pt;
+    }
+    #subtitle {
+      font-size: 16px;
+      letter-spacing: 8pt;
+    }
 }
-@-webkit-keyframes flash {
-	0% { opacity: 1; }
-	50% { opacity: .1; }
-	100% { opacity: 1; }
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen and (max-width: 736px) {
+    #title {
+      font-size: 80px;
+      letter-spacing: 7pt;
+    }
+    #subtitle {
+      font-size: 16px;
+      letter-spacing: 7pt;
+    }
 }
-@keyframes flash {
-	0% { opacity: 1; }
-	50% { opacity: .1; }
-	100% { opacity: 1; }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (max-width: 667px) {
+    #title {
+      font-size: 75px;
+      letter-spacing: 5pt;
+    }
+    #subtitle {
+      font-size: 15px;
+      letter-spacing: 5pt;
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen and (max-width: 568px) {
+    #title {
+      font-size: 60px;
+      letter-spacing: 5pt;
+    }
+    #subtitle {
+      font-size: 12px;
+      letter-spacing: 5pt;
+    }
 }
 
 @keyframes animStar {
