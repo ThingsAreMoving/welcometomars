@@ -6,7 +6,12 @@
 html {
   margin: 0;
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background-color: #141852;
+  background-image:  radial-gradient(
+      circle at top left,
+      #b42a2a,
+      #070B34 40%
+    );
   overflow: hidden;
 }
 
@@ -83,6 +88,7 @@ a {
 }
 
 #subtitle {
+  background: transparent;
   position: relative;
   left: 0;
   right: 0;
@@ -92,6 +98,35 @@ a {
   margin-top: -5px;
   padding-right: 20px;
   cursor: default;
+}
+
+#sunnie {
+  width: 17em;
+  position: fixed;
+  bottom: 0;
+  left: 1em;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(3em);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
 }
 
 /* ----------- iPhone X ----------- */
@@ -128,6 +163,9 @@ a {
       font-size: 15px;
       letter-spacing: 5pt;
     }
+    #sunnie {
+      bottom: -3em;
+    }
 }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
@@ -140,13 +178,8 @@ a {
       font-size: 12px;
       letter-spacing: 5pt;
     }
-}
-
-@keyframes animStar {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-2000px);
-  }
+    #sunnie {
+      width: 14em;
+      bottom: -3em;
+    }
 }
