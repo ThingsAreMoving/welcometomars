@@ -1,8 +1,7 @@
-# welcometomars
+# Welcome to Mars website
 
-https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website
-https://img.shields.io/uptimerobot/ratio/:monitor-specific-key.svg
-https://img.shields.io/uptimerobot/ratio/7/:monitor-specific-key.svg
-https://img.shields.io/uptimerobot/status/:monitor-specific-key.svg
+![Status](https://img.shields.io/website-up-down-green-red/http/welcometomars.app.svg?label=status)
 
 Web Site for http://www.welcometomars.app
+
+![Sunny](ProfilePicture.png)
