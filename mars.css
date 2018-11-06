@@ -102,12 +102,15 @@ a {
   position: relative;
   left: 0;
   right: 0;
-  font-weight: 500;
-  font-size: 17px;
-  letter-spacing: 10pt;
   margin-top: -5px;
   padding-right: 20px;
-  cursor: default;
+  cursor: pointer;
+  height: 0.8em;
+}
+
+#subtitle > img {
+  height: 65%;
+  vertical-align: top;
 }
 
 #sunnie {
@@ -148,6 +151,10 @@ a {
     #subtitle {
       font-size: 16px;
       letter-spacing: 8pt;
+      height: 4em;
+    }
+    #subtitle > img {
+      height: 90%;
     }
 }
 
@@ -161,6 +168,9 @@ a {
       font-size: 16px;
       letter-spacing: 7pt;
     }
+    #subtitle > img {
+      height: 90%;
+    }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -172,6 +182,9 @@ a {
     #subtitle {
       font-size: 15px;
       letter-spacing: 5pt;
+    }
+    #subtitle > img {
+      height: 90%;
     }
     #sunnie {
       bottom: -3em;
@@ -185,8 +198,11 @@ a {
       letter-spacing: 5pt;
     }
     #subtitle {
-      font-size: 12px;
-      letter-spacing: 5pt;
+      height: 4em;
+      margin-top: 6px;
+    }
+    #subtitle > img {
+      height: 90%;
     }
     #sunnie {
       width: 14em;
